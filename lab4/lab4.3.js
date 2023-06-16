@@ -1,6 +1,7 @@
 function percentageOfWorld3 (population3){
     let percentpopulation3 = (population3 / 7900) * 100;
-    return percentpopulation3;
+    let sum = percentpopulation3.toFixed(1);
+    return sum;
 }
 
 let iranPopulaction = 83;

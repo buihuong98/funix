@@ -1,6 +1,7 @@
 function percentageOfWorld1(population){
     let percentpopulation = (population / 7900)* 100;
-    return percentpopulation;
+    let sum = percentpopulation.toFixed(1);
+    return sum;
 }
 let chinaPopulaction = 1441;
 let chinaPercent = percentageOfWorld1(chinaPopulaction);
@@ -18,7 +19,8 @@ console.log('USA population percentage: ' + usaPercent + '%');
 
 function percentageOfWorld2 (population2){
     let percentpopulation2 = (population2 / 7900) * 100;
-    return percentpopulation2;
+    let sum = percentpopulation2.toFixed(1);
+    return sum;
 }
 
 let indiaPopulaction = 1380;
